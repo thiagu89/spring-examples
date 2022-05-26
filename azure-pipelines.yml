@@ -6,6 +6,10 @@
 trigger:
 - main
 
+pool:
+  name: Default
+  demands:
+   - agent.name -equals thiagunuc
 
 steps:
 - task: Gradle@2
