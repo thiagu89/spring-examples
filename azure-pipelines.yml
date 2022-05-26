@@ -8,8 +8,12 @@ trigger:
 
 pool:
   name: Default
-  demands:
-   - agent.name -equals thiagunuc
+  demands: java
+  
+#pool:
+#  name: Default
+#  demands:
+#  - agent.name -equals thiagunuc
 
 steps:
 - task: Gradle@2
