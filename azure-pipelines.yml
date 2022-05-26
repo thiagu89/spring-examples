@@ -6,8 +6,6 @@
 trigger:
 - main
 
-pool:
-  vmImage: Default
 
 steps:
 - task: Gradle@2
